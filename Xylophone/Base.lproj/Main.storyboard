@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uOp-XT-2oE">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="inj-bW-FhP">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="inj-bW-FhP" userLabel="C Key">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxE-8X-EuY">
@@ -29,6 +29,9 @@
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IiS-Ft-jdw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -38,7 +41,7 @@
                                             <constraint firstAttribute="trailing" secondItem="NxE-8X-EuY" secondAttribute="trailing" constant="5" id="tLb-q8-3L0"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evN-mP-JcZ">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evN-mP-JcZ" userLabel="D Key">
                                         <rect key="frame" x="0.0" y="118" width="414" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5w-5w-Yc8">
@@ -48,6 +51,9 @@
                                                 <state key="normal" title="D">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsb-gI-adC"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -57,7 +63,7 @@
                                             <constraint firstAttribute="bottom" secondItem="J5w-5w-Yc8" secondAttribute="bottom" id="xcc-SR-Po6"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Kd-fK-3TK">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Kd-fK-3TK" userLabel="E Key">
                                         <rect key="frame" x="0.0" y="236" width="414" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUz-cB-69m">
@@ -67,6 +73,9 @@
                                                 <state key="normal" title="E">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqP-fA-68z"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -76,7 +85,7 @@
                                             <constraint firstItem="PUz-cB-69m" firstAttribute="leading" secondItem="5Kd-fK-3TK" secondAttribute="leading" constant="15" id="fq1-bH-9bs"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdb-7z-lKO">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdb-7z-lKO" userLabel="F Key">
                                         <rect key="frame" x="0.0" y="354" width="414" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWK-kA-pvh">
@@ -86,6 +95,9 @@
                                                 <state key="normal" title="F">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytd-ec-0NF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -95,7 +107,7 @@
                                             <constraint firstItem="fWK-kA-pvh" firstAttribute="top" secondItem="Qdb-7z-lKO" secondAttribute="top" id="Zac-eT-32G"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nj6-eq-SxJ">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nj6-eq-SxJ" userLabel="G Key">
                                         <rect key="frame" x="0.0" y="472" width="414" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmF-PW-iee">
@@ -105,6 +117,9 @@
                                                 <state key="normal" title="G">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C1a-a2-6TJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -124,6 +139,9 @@
                                                 <state key="normal" title="A">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7G-lA-tcl"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -132,8 +150,10 @@
                                             <constraint firstAttribute="trailing" secondItem="HEz-bv-Sjo" secondAttribute="trailing" constant="35" id="WcB-4e-c4a"/>
                                             <constraint firstAttribute="bottom" secondItem="HEz-bv-Sjo" secondAttribute="bottom" id="puU-6X-0GH"/>
                                         </constraints>
+                                        <string key="userLabel">
+A Key</string>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJP-Vm-hB3">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJP-Vm-hB3" userLabel="B Key">
                                         <rect key="frame" x="0.0" y="708" width="414" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQf-9q-7Cy">
@@ -143,6 +163,9 @@
                                                 <state key="normal" title="B">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGP-XK-0Tp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
