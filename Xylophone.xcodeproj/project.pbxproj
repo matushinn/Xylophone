@@ -49,6 +49,7 @@
 		371F5D9C26BB6D140072D5A4 /* XylophoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylophoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		371F5DA026BB6D140072D5A4 /* XylophoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneUITests.swift; sourceTree = "<group>"; };
 		371F5DA226BB6D140072D5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371F5DAE26BB6D990072D5A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		371F5D7226BB6D120072D5A4 = {
 			isa = PBXGroup;
 			children = (
+				371F5DAE26BB6D990072D5A4 /* README.md */,
 				371F5D7D26BB6D120072D5A4 /* Xylophone */,
 				371F5D9426BB6D140072D5A4 /* XylophoneTests */,
 				371F5D9F26BB6D140072D5A4 /* XylophoneUITests */,
