@@ -19,3 +19,6 @@ You will be making your first musical instrument! Music apps are so popular on t
 * Code refactoring
 * Basic debugging
 
+## Movies
+![Animated GIF-downsized (5)](https://user-images.githubusercontent.com/44314610/129862012-11349507-5a01-41d2-b5c8-6d70bc99ec8e.gif)
+
